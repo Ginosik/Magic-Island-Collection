@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+a {
+    color: rgb(238, 255, 0);
+}
+
+.page {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #b9baad;
+    opacity: 1;
+    background-image:  radial-gradient(#878229 2px, transparent 2px), radial-gradient(#878229 2px, #b9baad 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
+}
+
+.page h1 {
+    margin: 100% auto;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(53, 69, 53);
+    color: rgb(224, 232, 124);
+    text-align: right;
+}
+
+#title {
+    background-color: rgb(53, 69, 53);
+    padding: 10px 0;
+}
+
+#title h1{
+    color: rgb(224, 232, 124);
+    text-align: center;
+}
+
