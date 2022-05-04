@@ -1,5 +1,13 @@
 * {
-    margin: 0;
+    margin: 0; padding: 0; border: 0; box-sizing: 0;
+}
+
+body {
+    background-color: #b9baad;
+    opacity: 1;
+    background-image:  radial-gradient(#878229 2px, transparent 2px), radial-gradient(#878229 2px, #b9baad 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
 }
 
 a {
@@ -8,15 +16,12 @@ a {
 
 .page {
     padding: 10px;
-    background-color: #b9baad;
-    opacity: 1;
-    background-image:  radial-gradient(#878229 2px, transparent 2px), radial-gradient(#878229 2px, #b9baad 2px);
-    background-size: 80px 80px;
-    background-position: 0 0,40px 40px;
 }
 
 .page h1 {
+    font-size:40px;
     text-align: center;
+    color: rgb(53, 69, 53);
 }
 
 .page p {
@@ -24,23 +29,35 @@ a {
 }
 
 .page div{
-    margin: 50% auto;
     border: 2px solid black;
+    position: fixed;
+    right: 20px;
+    left: 20px;
+    top: 76.8px;
+    bottom: 41.5px;
+    padding: 20px 70px;
 }
 
 .footer{
     background-color: rgb(53, 69, 53);
     color: rgb(224, 232, 124);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-right: 20px;
+}
+
+.footer h3 {
     text-align: right;
 }
 
-#title {
+
+.title {
     background-color: rgb(53, 69, 53);
     padding: 10px 0;
 }
 
-#title h1{
+.title h1{
     color: rgb(224, 232, 124);
     text-align: center;
 }
-
