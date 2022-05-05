@@ -11,8 +11,28 @@ body {
     background-position: 0 0,40px 40px;
 }
 
+p, span {
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+span {
+    padding-left: 60px;
+}
+
 a {
     color: rgb(238, 255, 0);
+}
+
+.title {
+    background-color: rgb(53, 69, 53);
+    padding: 10px 0;
+}
+
+.title h1{
+    color: rgb(224, 232, 124);
+    text-align: center;
 }
 
 .page {
@@ -25,16 +45,12 @@ a {
     color: rgb(53, 69, 53);
 }
 
-.page p {
-    
-}
-
-.page div{
+.page section{
     border: 2px solid black;
     position: fixed;
     right: 20px;
     left: 20px;
-    top: 76.8px;
+    top: 67.6px;
     bottom: 41.5px;
     padding: 20px 70px;
 }
@@ -48,17 +64,14 @@ a {
     padding-right: 20px;
 }
 
+.footer div {
+    padding-right: 20px;
+}
+
 .footer h3 {
+    width: auto;
+    position: relative;
+    bottom: 0px;
+    right: 0x;
     text-align: right;
-}
-
-
-.title {
-    background-color: rgb(53, 69, 53);
-    padding: 10px 0;
-}
-
-.title h1{
-    color: rgb(224, 232, 124);
-    text-align: center;
 }
